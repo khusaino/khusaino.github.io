@@ -2,4 +2,4 @@
 
 
 
-* [страница 1]( https://khusaino.css-js-animation.git/dist/ )
+* [страница 1]( https://khusaino.github.io/dist/ )

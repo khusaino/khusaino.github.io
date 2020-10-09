@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form__wrapper">
+            <form class="form">
+               
+                <div class="form__license license">
+                   <div class="license__items">
+                        <div class="license__item">
+                            <input id="1" type="radio" name="license" value="1" >
+                            <label class="license__label"  for="1">
+                                <div class="license__check"></div>
+                                <div class="license__title">license#1</div>
+                                <span class="license__prise">
+                                    $13 per license
+                                </span>
+                            </label>
+                        </div>                    <div class="license__item">
+                            <input id="2" type="radio" name="license" value="2">
+                            <label class="license__label" for="2">
+                                <div class="license__check"></div>
+                                <div class="license__title">license#2</div>
+                                <span class="license__prise">
+                                    $22 per license
+                                </span>
+                            </label>
+                        </div>                    <div class="license__item">
+                            <input id="3" type="radio" name="license" value="3">
+                            <label class="license__label" for="3">
+                                <div class="license__check"></div>
+                                <div class="license__title">license#3</div>
+                                <span class="license__prise">
+                                    $34 per license
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form__number number">
+                    <div class="number__title">
+                        Number of licenses:  
+                    </div>
+                    <input type="number" value="1">
+                </div>
+                
+                <div class="form__total total">
+                    <div class="total__title">
+                        total: <span id="total"></span>
+                    </div>
+                    
+                    <button class="btn">
+                        buy now
+                    </button>
+                    
+                    <div class="forum__plan plan">
+                        Selected plan: <span id="inner"></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+<!--    <script src="js/lips.min.js"></script>-->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+

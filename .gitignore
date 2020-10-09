@@ -1,0 +1,7 @@
+fonts/
+img/
+libs.min.js
+node_modules/
+gulpfile.js
+package.json
+package-lock.json

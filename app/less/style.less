@@ -1,0 +1,67 @@
+@import '_vars';
+@import '_libs';
+
+@import '_media';
+
+*{
+    box-sizing: border-box;
+    
+}
+
+.button{
+//    overflow: hidden;
+//    position: relative;
+}
+.animate-1{
+   display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px;
+    &__btn{
+        width: 150px;
+        height: 70px;
+        border: none;
+        background-color: #5273a6;
+        outline: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 23px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 0 12px 5px rgba(0,0,0, 0.5);
+        transition: box-shadow ease .5s;
+        
+        &:hover{
+            background-color: #769fdf;
+            transform: translateZ(20px);
+            box-shadow: 0 0 12px 10px rgba(0, 0, 0, 0.5)
+        }
+    }
+}
+
+.pulse{
+    background-color: #769fdf;
+    border-radius: 50%;
+    animation: pulse .7s ease-out;
+    transform: scale(0);
+    position: absolute;
+    z-index: 2;
+}
+@keyframes pulse{
+    to{
+        transform: scale(2);
+        background-color:   #fff;
+        opacity: 0;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
